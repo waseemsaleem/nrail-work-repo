@@ -25,7 +25,7 @@ const Home = (props: any) => {
 
   useEffect(() => {
     setProducts(props.CartReducer.products)
-  }, [])
+  }, [props.CartReducer.products])
   return (
     <div className='App bg-light'>
       <div className='row w-100'>

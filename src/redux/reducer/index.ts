@@ -38,7 +38,6 @@ const reducer = (state: IState = initialState, action: any) => {
           items: [...state.items, action.payload],
         }
       }
-      break;
     case 'UPDATE_STOCK':
       return {
         ...state,
@@ -52,7 +51,6 @@ const reducer = (state: IState = initialState, action: any) => {
           return product
         }),
       }
-      break;
 
     default:
       break;
