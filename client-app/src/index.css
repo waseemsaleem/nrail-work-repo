@@ -1,0 +1,55 @@
+.App {
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.product-quantity-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span.product-count {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  margin: 0 5px;
+}
+.product-quantity-btns button {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+}
+
+.cart-count-badge {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+}
+
+.cart-summary-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-summary-item:last-child {
+  border-bottom: 1px solid var(--color-primary);
+}
+
+img.card-img-top {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+}
+
+.cart-product-img {
+  width: 100px;
+  padding: 10px;
+}
